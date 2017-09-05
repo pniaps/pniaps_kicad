@@ -1,7 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ESP-12E
+D ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/
+$ENDCMP
+#
+$CMP H11AA1
+D Optocoupler, Phototransistor Output, AC Input
+K Optocoupler, AC input
+F https://www.vishay.com/docs/83608/h11aa1.pdf
+$ENDCMP
+#
 $CMP HLK-PM01
-D HLK-PM01
+D Ultra-compact power module HLK-PM01
+K power module
+F http://www.hlktech.net/product_detail.php?ProId=54
 $ENDCMP
 #
 #End Doc Library
